@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.cards{
+  display: flex;
+  justify-content: space-around;
+  max-width: 1000px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: max-content;
+  margin: 1rem;  
+  padding: 0.75rem;
+  max-width: 250px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+}
+
+.image{
+  /* margin-top: 0; */
+  width: 100%;
+  aspect-ratio: 1/1;
+  /* border-radius: 10px; */
+}
+
+.section{
+  /* border: 2px red solid; */
+  margin: 1rem;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  /* margin-left: 1rem; */
+}
+
+.filter{
+  min-width: 350px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  text-align: center;
+  margin-top: 25px;
+}
+
+.click{
+  color: blue;
+  text-decoration: underline;
+}
