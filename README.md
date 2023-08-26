@@ -1,3 +1,4 @@
+<a href='https://jatin-pandey01.github.io/Rick-and-Morty-character/'> Click Here </a>
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
