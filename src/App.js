@@ -38,10 +38,10 @@ function App() {
   
 
   return (
-    <div className="App">
+    <div className="App w-[100%] h-[100%]">
 
-      <div className="py-5 flex justify-around items-center bg-[rgba(180,189,230,0.3)] ">
-        <h1 className='font-black text-3xl'>Rick and Morty <span className="text-blue-500">Character</span></h1>
+      <div className="py-5 text-center w-[100%] bg-[rgba(180,189,230,0.3)] ">
+        <h1 className='font-black sm:3xl text-[1.25rem]'>Rick and Morty <span className="text-blue-500">Character</span></h1>
         {/* <Navbar changeHeader={changeHeader} changePageNumber={changePageNumber}></Navbar> */}
       </div>
 

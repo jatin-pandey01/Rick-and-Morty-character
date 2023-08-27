@@ -5,12 +5,12 @@ const Pagination = (props) => {
     // let pageSize = parseInt(props.info?.pages);
     // console.log(typeof props.info?.pages);
   return (
-    <ReactPaginate className='flex py-5 gap-5 border-black justify-center text-blue-600' 
+    <ReactPaginate className='flex flex-wrap py-5 sm:gap-5 gap-[3.5px] border-black justify-center text-blue-600' 
         nextLabel='Next'
         previousLabel='Prev'
-        nextClassName='bg-blue-600 text-white px-2 rounded flex items-center'
-        previousClassName='bg-blue-600 text-white px-2 rounded flex items-center'
-        pageClassName='border-[rgba(0,0,0,0.1)] border-solid border-2 bg-white px-2 py-1'
+        nextClassName='bg-blue-600 text-white sm:px-2 px-1 rounded flex items-center'
+        previousClassName='bg-blue-600 text-white sm:px-2 px-1 rounded flex items-center'
+        pageClassName='border-[rgba(0,0,0,0.1)] border-solid border-2 bg-white sm:px-2 px-1 py-1'
         pageLinkClassName='border-red-800 border-solid'
         onPageChange={(data)=>{
             // console.log(data.selected);

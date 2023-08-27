@@ -10,16 +10,20 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
 }
 
 .cards{
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  /* border: 2px red solid; */
   max-width: 1000px;
   flex-wrap: wrap;
   margin: 0 auto;
+  overflow: none;
 }
 
 .card{
@@ -43,7 +47,7 @@ body {
 
 .section{
   /* border: 2px red solid; */
-  margin: 1rem;
+  margin: 1rem auto;
   display: flex;
   /* flex-direction: column; */
   justify-content: space-between;
